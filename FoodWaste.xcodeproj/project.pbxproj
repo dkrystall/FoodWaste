@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DD85A54125624F8A00586B35 /* ScanDocumentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD85A54025624F8A00586B35 /* ScanDocumentView.swift */; };
 		DDC4F16B2558CE400089C30C /* FoodWasteApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC4F16A2558CE400089C30C /* FoodWasteApp.swift */; };
 		DDC4F16D2558CE400089C30C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC4F16C2558CE400089C30C /* ContentView.swift */; };
 		DDC4F16F2558CE420089C30C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDC4F16E2558CE420089C30C /* Assets.xcassets */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DD85A54025624F8A00586B35 /* ScanDocumentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanDocumentView.swift; sourceTree = "<group>"; };
 		DDC4F1672558CE400089C30C /* FoodWaste.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoodWaste.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDC4F16A2558CE400089C30C /* FoodWasteApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodWasteApp.swift; sourceTree = "<group>"; };
 		DDC4F16C2558CE400089C30C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -106,6 +108,7 @@
 				DDC4F1782558CE420089C30C /* Info.plist */,
 				DDC4F1752558CE420089C30C /* FoodWaste.xcdatamodeld */,
 				DDC4F1702558CE420089C30C /* Preview Content */,
+				DD85A54025624F8A00586B35 /* ScanDocumentView.swift */,
 			);
 			path = FoodWaste;
 			sourceTree = "<group>";
@@ -268,6 +271,7 @@
 				DDC4F1742558CE420089C30C /* Persistence.swift in Sources */,
 				DDC4F16D2558CE400089C30C /* ContentView.swift in Sources */,
 				DDC4F1772558CE420089C30C /* FoodWaste.xcdatamodeld in Sources */,
+				DD85A54125624F8A00586B35 /* ScanDocumentView.swift in Sources */,
 				DDC4F16B2558CE400089C30C /* FoodWasteApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

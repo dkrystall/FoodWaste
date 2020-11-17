@@ -15,9 +15,11 @@ struct ContentView: View {
         sortDescriptors: [NSSortDescriptor(keyPath: \Item.timestamp, ascending: true)],
         animation: .default)
     private var items: FetchedResults<Item>
-
+    @State private var recognizedText = "Tap button to start scanning."
+    @State private var showingScanningView = false
+    
     var body: some View {
-        List {
+        /*List {
             ForEach(items) { item in
                 Text("Item at \(item.timestamp!, formatter: itemFormatter)")
             }
@@ -31,6 +33,35 @@ struct ContentView: View {
             Button(action: addItem) {
                 Label("Add Item", systemImage: "plus")
             }
+        }*/
+        NavigationView{
+            VStack {
+                ScrollView {
+                    ZStack{
+                        RoundedRectangle(cornerRadius: 20, style: .continuous)
+                            .fill(Color.gray.opacity(0.2))
+                        Text(recognizedText)
+                            .padding()
+                    }
+                }
+                Spacer()
+                
+                HStack{
+                    Spacer()
+                    
+                    Button(action: {
+                        self.showingScanningView = true
+                    }, label: {
+                        Text("Start Scanning")
+                    })
+                    .padding()
+                    .foregroundColor(.white)
+                    .background(Capsule().fill(Color.blue))
+                }
+            }
+            .sheet(isPresented: $showingScanningView, content: {
+                ScanDocumentView(recognizedText: self.$recognizedText)
+            })
         }
     }
 
