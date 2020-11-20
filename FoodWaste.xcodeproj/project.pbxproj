@@ -16,6 +16,7 @@
 		DDC4F1772558CE420089C30C /* FoodWaste.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DDC4F1752558CE420089C30C /* FoodWaste.xcdatamodeld */; };
 		DDC4F1822558CE420089C30C /* FoodWasteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC4F1812558CE420089C30C /* FoodWasteTests.swift */; };
 		DDC4F18D2558CE420089C30C /* FoodWasteUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC4F18C2558CE420089C30C /* FoodWasteUITests.swift */; };
+		DDF875B92564565D007BBB18 /* Pantry.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDF875B82564565D007BBB18 /* Pantry.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		DDC4F1882558CE420089C30C /* FoodWasteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoodWasteUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDC4F18C2558CE420089C30C /* FoodWasteUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodWasteUITests.swift; sourceTree = "<group>"; };
 		DDC4F18E2558CE420089C30C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDF875B82564565D007BBB18 /* Pantry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pantry.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +103,11 @@
 		DDC4F1692558CE400089C30C /* FoodWaste */ = {
 			isa = PBXGroup;
 			children = (
+				DDF875B42564563B007BBB18 /* Util */,
+				DDF875B32564561C007BBB18 /* Views */,
+				DDF875B225645614007BBB18 /* Model */,
 				DDC4F16A2558CE400089C30C /* FoodWasteApp.swift */,
-				DDC4F16C2558CE400089C30C /* ContentView.swift */,
 				DDC4F16E2558CE420089C30C /* Assets.xcassets */,
-				DDC4F1732558CE420089C30C /* Persistence.swift */,
 				DDC4F1782558CE420089C30C /* Info.plist */,
 				DDC4F1752558CE420089C30C /* FoodWaste.xcdatamodeld */,
 				DDC4F1702558CE420089C30C /* Preview Content */,
@@ -137,6 +140,30 @@
 				DDC4F18E2558CE420089C30C /* Info.plist */,
 			);
 			path = FoodWasteUITests;
+			sourceTree = "<group>";
+		};
+		DDF875B225645614007BBB18 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DDF875B82564565D007BBB18 /* Pantry.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DDF875B32564561C007BBB18 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DDC4F16C2558CE400089C30C /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		DDF875B42564563B007BBB18 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				DDC4F1732558CE420089C30C /* Persistence.swift */,
+			);
+			path = Util;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -271,6 +298,7 @@
 				DDC4F1742558CE420089C30C /* Persistence.swift in Sources */,
 				DDC4F16D2558CE400089C30C /* ContentView.swift in Sources */,
 				DDC4F1772558CE420089C30C /* FoodWaste.xcdatamodeld in Sources */,
+				DDF875B92564565D007BBB18 /* Pantry.swift in Sources */,
 				DD85A54125624F8A00586B35 /* ScanDocumentView.swift in Sources */,
 				DDC4F16B2558CE400089C30C /* FoodWasteApp.swift in Sources */,
 			);
