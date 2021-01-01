@@ -16,6 +16,10 @@
 		DDC4F1772558CE420089C30C /* FoodWaste.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DDC4F1752558CE420089C30C /* FoodWaste.xcdatamodeld */; };
 		DDC4F1822558CE420089C30C /* FoodWasteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC4F1812558CE420089C30C /* FoodWasteTests.swift */; };
 		DDC4F18D2558CE420089C30C /* FoodWasteUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC4F18C2558CE420089C30C /* FoodWasteUITests.swift */; };
+		DDC8D187256C41D8001DF275 /* ProfileCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC8D186256C41D8001DF275 /* ProfileCard.swift */; };
+		DDC8D199256C4486001DF275 /* NerkoOne-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DDC8D198256C4486001DF275 /* NerkoOne-Regular.ttf */; };
+		DDC8D19E256CB65B001DF275 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDC8D19D256CB65B001DF275 /* LaunchScreen.storyboard */; };
+		DDC8D1B325706738001DF275 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC8D1B225706738001DF275 /* InfoView.swift */; };
 		DDF875B92564565D007BBB18 /* Pantry.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDF875B82564565D007BBB18 /* Pantry.swift */; };
 /* End PBXBuildFile section */
 
@@ -52,6 +56,10 @@
 		DDC4F1882558CE420089C30C /* FoodWasteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoodWasteUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDC4F18C2558CE420089C30C /* FoodWasteUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodWasteUITests.swift; sourceTree = "<group>"; };
 		DDC4F18E2558CE420089C30C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDC8D186256C41D8001DF275 /* ProfileCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileCard.swift; sourceTree = "<group>"; };
+		DDC8D198256C4486001DF275 /* NerkoOne-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NerkoOne-Regular.ttf"; sourceTree = "<group>"; };
+		DDC8D19D256CB65B001DF275 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DDC8D1B225706738001DF275 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
 		DDF875B82564565D007BBB18 /* Pantry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pantry.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -103,6 +111,7 @@
 		DDC4F1692558CE400089C30C /* FoodWaste */ = {
 			isa = PBXGroup;
 			children = (
+				DDC8D197256C4474001DF275 /* fonts */,
 				DDF875B42564563B007BBB18 /* Util */,
 				DDF875B32564561C007BBB18 /* Views */,
 				DDF875B225645614007BBB18 /* Model */,
@@ -142,6 +151,14 @@
 			path = FoodWasteUITests;
 			sourceTree = "<group>";
 		};
+		DDC8D197256C4474001DF275 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				DDC8D198256C4486001DF275 /* NerkoOne-Regular.ttf */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
 		DDF875B225645614007BBB18 /* Model */ = {
 			isa = PBXGroup;
 			children = (
@@ -154,6 +171,9 @@
 			isa = PBXGroup;
 			children = (
 				DDC4F16C2558CE400089C30C /* ContentView.swift */,
+				DDC8D186256C41D8001DF275 /* ProfileCard.swift */,
+				DDC8D19D256CB65B001DF275 /* LaunchScreen.storyboard */,
+				DDC8D1B225706738001DF275 /* InfoView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -270,6 +290,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				DDC4F1722558CE420089C30C /* Preview Assets.xcassets in Resources */,
+				DDC8D19E256CB65B001DF275 /* LaunchScreen.storyboard in Resources */,
+				DDC8D199256C4486001DF275 /* NerkoOne-Regular.ttf in Resources */,
 				DDC4F16F2558CE420089C30C /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -295,6 +317,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DDC8D1B325706738001DF275 /* InfoView.swift in Sources */,
+				DDC8D187256C41D8001DF275 /* ProfileCard.swift in Sources */,
 				DDC4F1742558CE420089C30C /* Persistence.swift in Sources */,
 				DDC4F16D2558CE400089C30C /* ContentView.swift in Sources */,
 				DDC4F1772558CE420089C30C /* FoodWaste.xcdatamodeld in Sources */,
